@@ -1,0 +1,391 @@
+#keno_container{
+  min-width: 370px;
+}
+
+#keno{
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  max-width:600px ;
+  min-width: 600px;
+  border: 1px solid #000;
+  background-color: #000;
+ 
+}
+#keno #keno_child-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(37, 78, 37);
+  margin-bottom: 2px;
+  padding: 5px ;
+  color: white;
+}
+#keno #keno_child-1 span{
+  color: yellow;
+}
+#keno_child-1 #keno_time_div{
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-weight: bold;
+  padding:0px 12px;
+  color: white;
+}
+
+#keno_child_2{
+  max-width:600px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+#keno_div-3 {
+  padding: 3px;
+  background-color: rgb(41, 44, 41);
+  display: flex;
+  flex-wrap: nowrap;
+}
+#keno #keno_numbers_div{
+ width: 60%; 
+ min-width: 360px;
+ padding: 2px;
+}
+#keno #keno_numbers_1_to_80{
+  display: flex;
+}
+#keno .keno_click{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ border: none;
+ width: 32px;
+ height: 32px;
+ margin: 1.5px;
+ padding: 2px;
+ font-size: 20px;
+ cursor: pointer;
+ border-radius: 4px;
+ color: white;
+ background-color: rgb(92, 174, 92);
+}
+
+#keno .keno_click:hover{
+  transform: rotate( 0deg ) scale( 1.5 ); 
+  border: 1px solid #000;
+}
+
+#keno  .dropdown-toggle{
+ background-color: rgb(88, 205, 244);
+  width: 230px;
+  height: 100%;
+  color: black;
+  
+}
+#keno .dropdown-menu{
+  width: 225px; 
+  min-height: 120px;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+#keno .dropdown-menu li {
+  font-size: 12px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#keno .dropdown-menu  span{
+  border-bottom: 1px solid #000;
+}
+#keno .dropdown-menu li :nth-child(1){
+ color: red;
+ width: 50px;
+ padding-right: 4px;
+ text-align: start;
+ border-right: 1px solid #000;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#keno .dropdown-menu li :nth-child(2){
+  width: 160px;
+  text-align: center;
+  font-size: 11px;
+}
+
+#keno #keno_buttons_group  {
+padding:  5px  1px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+}
+#keno #keno_buttons_group div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  
+}
+#keno #keno_buttons_group  button{
+  padding: 3px 10px;
+}
+
+#keno_auto_bet_button{
+  max-height: 30px;
+  width: fit-content;
+  font-size: 13px;
+}
+
+#keno_bet_mony{
+ width: 140px;
+ text-align: center;
+ border-radius: 8px;
+ color: green;
+}
+
+#keno_fast,
+#keno_play_rules,
+#keno_repeat{
+  width: 80px;
+}
+
+ #keno_auto_bet_plus,
+ #keno_auto_bet_minus{
+  max-width: 50px;
+}
+
+#keno_add_bet{
+  width: 140px;
+}
+
+#keno #keno_buttons_and_numbers{
+ 
+  width: 100%;
+ 
+}
+
+#keno_bet_history {
+  overflow-y: scroll;
+  width: 100%;
+  height: 160px;
+  background-color: aliceblue;
+}
+
+
+#keno_bet_list_title{
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+ .keno_clear_bet{
+  width: fit-content;
+  border: none;
+  background:none;
+  
+}
+ #keno_mony_span{
+  color: green;
+
+}
+#keno_bet_list_divs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70px  1fr;
+  grid-template-rows: 1/2;
+  border: 1px solid #000;
+  align-items: center;
+}
+
+#keno_beted_numbers  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px 0px;
+} 
+.to_check_bets{
+  height: 20px;
+  width: 20px;
+  border-radius : 50%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  border: 1px solid #000;
+  margin: 2px;
+  border: none;
+  box-shadow: 0px 0px 5px 0px black ;
+  
+}
+#keno_child-4{
+  display: none;
+}
+ .keyframes{
+  height: 30px;
+  width: 30px;
+  border-radius : 50%;
+  background-color: yellow;
+  color: red;
+  margin-right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px black ;
+} 
+.keno_div_2_ball_div {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+}
+#keno_div_2 {
+  padding: 2px;
+  min-width: 360px;
+  max-width: 360px;
+  max-height: 70px;
+  min-height: 35px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+
+}
+
+#keno_rundom_ball{
+  height: 26px;
+  width: 26px;
+  border-radius : 50%;
+  background-color: yellow;
+  color: red;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  margin-right: 1px;
+  align-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px black ;
+  position: absolute;
+  right: 0;
+  
+}
+
+.keno_div_2_first {
+  
+  height: fit-content;
+  display: grid;
+  grid-template-columns:  repeat(10, auto) ;
+  grid-template-rows: auto;
+}
+
+@media   screen and (max-width: 650px) {
+  #keno_bet_mony{
+    min-width: 210px;
+   }
+  #keno_bet_history {
+    
+    max-height: 164px;
+    
+  }
+  #keno .dropdown-center{
+    width: 100%;
+  }
+  #keno_bet_history {
+    height:  fit-content;
+  }
+  #keno   .dropdown-toggle{
+   
+    width: 100%;
+
+   }
+ 
+  #keno_child_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  #keno_child_for_balls{
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+ #keno_child-1{
+    min-width: 360px;
+    max-width: 360px;
+  }
+
+  #keno_div-3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+  }
+
+  #keno #keno_buttons_and_numbers{
+    min-width: 360px;
+  }
+  #keno{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: fit-content;
+   min-width: 360px;
+   max-width: 360px;
+    
+  }
+  
+  #keno_child-4   {
+    text-align: center;
+    min-width: 360px;
+    max-width: 360px;
+    
+  }
+  #keno .dropdown-toggle{
+    width: 100%;
+  }
+  #keno .dropdown-menu{
+    width: 100%;
+  }
+  #keno_auto_bet_button,
+  #keno_bet_mony{
+    width: 100px;
+    
+  }
+  #keno_fast,
+  #keno_play_rules,
+  #keno_repeat{
+    width: 140px;
+  }
+  #keno_auto_bet_plus,
+  #keno_auto_bet_minus,
+  #keno_minus,
+  #keno_plus{
+    
+    width: 50px;
+
+  }
+  #keno_add_bet{
+    width: 210px;
+  }
+   
+}
+
